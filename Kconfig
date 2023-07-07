@@ -1,0 +1,8 @@
+source "Kconfig.zephyr"
+
+config INCLUDE_NET_CORE_IMAGE
+    bool "Include net image as sub image"
+	depends on SOC_NRF5340_CPUAPP
+    default y
+	select PARTITION_MANAGER_ENABLED
+    select BOARD_ENABLE_CPUNET
