@@ -14,12 +14,11 @@ struct payload {
 
 static struct payload remote_command;
 static struct payload remote_reply;
-
 static const struct device *ipc0_instance = DEVICE_DT_GET(DT_NODELABEL(ipc0));
 
-static K_SEM_DEFINE (bound_sem, 0, 1);
+static K_SEM_DEFINE(bound_sem, 0, 1);
 
-static void ep_bound (void *priv)
+static void ep_bound (void *priv) 
 {
    k_sem_give (&bound_sem);
 }
@@ -35,7 +34,7 @@ static struct ipc_ept_cfg ep_cfg = {
     .cb = {
         .bound = ep_bound,
         .received = ep_recv,
-    },
+    }, 
 };
 
 int main(void)
@@ -75,7 +74,6 @@ int main(void)
          LOG_INF("received from remote CPU the response: %s", remote_reply.command_string);
          k_sleep(K_MSEC(1000));
       }
-
       return 0;
    }
 

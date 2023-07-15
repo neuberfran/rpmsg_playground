@@ -1,0 +1,214 @@
+The target system is: Generic - 3.1.99 - arm
+The host system is: Linux - 5.15.0-76-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/neuberfran/zephyr-sdk-0.16.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/3.24.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/neuberfran/zephyr-sdk-0.16.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/3.24.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc (Zephyr SDK 0.16.0) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_8684e && [1/2] Building C object CMakeFiles/cmTC_8684e.dir/HAVE_STDATOMIC_H.c.obj
+[2/2] Linking C executable cmTC_8684e
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_8684e.dir/HAVE_STDATOMIC_H.c.obj: linker input file unused because linking not done
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_2efcb && [1/2] Building C object CMakeFiles/cmTC_2efcb.dir/HAVE_FCNTL_H.c.obj
+[2/2] Linking C executable cmTC_2efcb
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_2efcb.dir/HAVE_FCNTL_H.c.obj: linker input file unused because linking not done
+
+
+
+Performing C SOURCE FILE Test check_Wformat_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_ed385 && [1/2] Building C object CMakeFiles/cmTC_ed385.dir/src.c.obj
+[2/2] Linking C executable cmTC_ed385
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_ed385.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat_security_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_52e5f && [1/2] Building C object CMakeFiles/cmTC_52e5f.dir/src.c.obj
+cc1: warning: '-Wformat-security' ignored without '-Wformat' [-Wformat-security]
+[2/2] Linking C executable cmTC_52e5f
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_52e5f.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat_zero_length_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_061a6 && [1/2] Building C object CMakeFiles/cmTC_061a6.dir/src.c.obj
+cc1: warning: '-Wformat-zero-length' ignored without '-Wformat' [-Wformat-zero-length]
+[2/2] Linking C executable cmTC_061a6
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_061a6.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__lasan succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_19a49 && [1/2] Building C object CMakeFiles/cmTC_19a49.dir/src.c.obj
+[2/2] Linking C executable cmTC_19a49
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_19a49.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_address succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_2889e && [1/2] Building C object CMakeFiles/cmTC_2889e.dir/src.c.obj
+[2/2] Linking C executable cmTC_2889e
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_2889e.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_undefined succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_d08b9 && [1/2] Building C object CMakeFiles/cmTC_d08b9.dir/src.c.obj
+[2/2] Linking C executable cmTC_d08b9
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_d08b9.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__no_pie succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_f3a05 && [1/2] Building C object CMakeFiles/cmTC_f3a05.dir/src.c.obj
+[2/2] Linking C executable cmTC_f3a05
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_f3a05.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m33 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_ed123 && [1/2] Building C object CMakeFiles/cmTC_ed123.dir/src.c.obj
+[2/2] Linking C executable cmTC_ed123
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_ed123.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mthumb succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_e25b1 && [1/2] Building C object CMakeFiles/cmTC_e25b1.dir/src.c.obj
+[2/2] Linking C executable cmTC_e25b1
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_e25b1.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mabi_aapcs succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_b324b && [1/2] Building C object CMakeFiles/cmTC_b324b.dir/src.c.obj
+[2/2] Linking C executable cmTC_b324b
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_b324b.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mfp16_format_ieee succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_7f3d8 && [1/2] Building C object CMakeFiles/cmTC_7f3d8.dir/src.c.obj
+[2/2] Linking C executable cmTC_7f3d8
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_7f3d8.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_4ddc1 && [1/2] Building C object CMakeFiles/cmTC_4ddc1.dir/src.c.obj
+[2/2] Linking C executable cmTC_4ddc1
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_4ddc1.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_d4518 && [1/2] Building C object CMakeFiles/cmTC_d4518.dir/src.c.obj
+[2/2] Linking C executable cmTC_d4518
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_d4518.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_neuberfran_nordic_connect_sw2_rpmsg_playground_CMAKE_SOURCE_DIR_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_2e353 && [1/2] Building C object CMakeFiles/cmTC_2e353.dir/src.c.obj
+[2/2] Linking C executable cmTC_2e353
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_2e353.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_neuberfran_nordic_connect_sw2_zephyr_ZEPHYR_BASE_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_113f2 && [1/2] Building C object CMakeFiles/cmTC_113f2.dir/src.c.obj
+[2/2] Linking C executable cmTC_113f2
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_113f2.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_neuberfran_nordic_connect_sw2_WEST_TOPDIR_C__c__nostartfiles__nostdlib__isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_neuberfran_zephyr_sdk_0_16_0_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/neuberfran/.local/bin/ninja cmTC_71f73 && [1/2] Building C object CMakeFiles/cmTC_71f73.dir/src.c.obj
+[2/2] Linking C executable cmTC_71f73
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_71f73.dir/src.c.obj: linker input file unused because linking not done
+
+
+Source file was:
+int main(void) { return 0; }

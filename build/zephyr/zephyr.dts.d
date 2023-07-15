@@ -1,0 +1,29 @@
+empty_file.o: \
+ /home/neuberfran/nordic_connect_sw2/zephyr/misc/empty_file.c \
+ /home/neuberfran/nordic_connect_sw2/zephyr/boards/arm/thingy53_nrf5340/thingy53_nrf5340_cpuapp.dts \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf5340_cpuapp_qkaa.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/common/mem.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf5340_cpuapp.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/armv8-m.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/common/skeleton.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf_common.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/adc/nrf-adc.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/sys/util_macro.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/sys/util_internal.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/sys/util_loops.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/pinctrl/nrf-pinctrl.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/common/freq.h \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/override.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf5340_cpuapp_peripherals.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf5340_cpuapp_ipc.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/dts/arm/nordic/nrf5340_cpuapp_peripherals_ns.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/boards/arm/thingy53_nrf5340/thingy53_nrf5340_common.dts \
+ /home/neuberfran/nordic_connect_sw2/zephyr/boards/arm/thingy53_nrf5340/thingy53_nrf5340_common-pinctrl.dtsi \
+ /home/neuberfran/nordic_connect_sw2/zephyr/boards/arm/thingy53_nrf5340/thingy53_nrf5340_partition_conf.dts \
+ /home/neuberfran/nordic_connect_sw2/zephyr/boards/arm/thingy53_nrf5340/thingy53_nrf5340_shared_sram_planning_conf.dts \
+ /home/neuberfran/nordic_connect_sw2/rpmsg_playground/boards/thingy53_nrf5340_cpuapp.overlay

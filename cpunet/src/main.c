@@ -3,18 +3,19 @@
 #include <zephyr/logging/log.h>
 #include <zephyr/ipc/ipc_service.h>
 #include <zephyr/shell/shell.h>
-#include <string.h>
 
-LOG_MODULE_REGISTER (host, LOG_LEVEL_INF);
+#include <string.h>
+     
+LOG_MODULE_REGISTER(host, LOG_LEVEL_INF);
 
 struct payload {
      unsigned long size;
      char command_string[64];
-};
-
+}; 
+ 
 static struct payload remote_command;
 static struct payload remote_reply;
-static const struct *device *ipc0_instance = DEVICE_DT_GET(DT_NODELABEL(ipc0));
+static const struct device *ipc0_instance = DEVICE_DT_GET(DT_NODELABEL(ipc0)); 
 
 static K_SEM_DEFINE(bound_sem, 0, 1);
 
@@ -62,8 +63,4 @@ int main(void)
      }
 
       return 0;
-
 }
-
-
-
