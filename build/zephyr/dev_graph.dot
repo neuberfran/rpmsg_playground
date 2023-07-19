@@ -12,7 +12,7 @@ digraph "Device dependency graph" {
 	8 [label="regulator-3v3-ctrl\nOrdinal: 8 | Handle: 10\n/regulator-3v3-ctrl"]
 	14 -> 136
 	6 -> 9
-	6 -> 8
 	6 -> 136
+	6 -> 8
 	24 -> 25
 }

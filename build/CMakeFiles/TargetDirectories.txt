@@ -461,7 +461,6 @@
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/flash_patch/CMakeFiles/install.dir
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/flash_patch/CMakeFiles/install/local.dir
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/flash_patch/CMakeFiles/install/strip.dir
-/home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/fatal_error/CMakeFiles/..__nrf__lib__fatal_error.dir
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/fatal_error/CMakeFiles/edit_cache.dir
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/fatal_error/CMakeFiles/rebuild_cache.dir
 /home/neuberfran/nordic_connect_sw2/rpmsg_playground/build/modules/nrf/lib/fatal_error/CMakeFiles/list_install_components.dir
